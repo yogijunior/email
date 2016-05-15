@@ -12,19 +12,14 @@
   font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
   font-size: 100%;
   line-height: 1.6em;
-  <!--margin: 0;-->
-  <!--padding: 0;-->
 }
 
 img {
-  <!--max-width: 600px;-->
   width: auto;
 }
 
 body {
-  <!---webkit-font-smoothing: antialiased;-->
   height: 100%;
-  <!---webkit-text-size-adjust: none;-->
   width: 100% !important;
 }
 
@@ -37,13 +32,10 @@ a {
 }
 
 .btn-primary {
-  <!--Margin-bottom: 10px;-->
-  width: auto !important;
 }
 
 .btn-primary td {
   background-color: #348eda; 
-  <!--border-radius: 25px;-->
   font-family: "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
   font-size: 14px; 
   text-align: center;
@@ -53,27 +45,10 @@ a {
 .btn-primary td a {
   background-color: #348eda;
   border: solid 1px #348eda;
-  <!--border-radius: 25px;-->
-  <!--border-width: 10px 20px;-->
-  <!--display: inline-block;-->
-  float: left;
   color: #ffffff;
-  <!--cursor: pointer;-->
   font-weight: bold;
   line-height: 3;
   text-decoration: none;
-}
-
-.last {
-  <!--margin-bottom: 0;-->
-}
-
-.first {
-  <!--margin-top: 0;-->
-}
-
-.padding {
-  <!--padding: 10px 0;-->
 }
 
 
@@ -81,8 +56,6 @@ a {
     BODY
 ------------------------------------- */
 table.body-wrap {
-  <!--padding: 20px;-->
-  <!--width: 100%;-->
 }
 
 table.body-wrap .container {
@@ -119,7 +92,6 @@ h3 {
   font-family: "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
   font-weight: 200;
   line-height: 1.2em;
-  <!--margin: 40px 0 10px;-->
 }
 
 h1 {
@@ -137,12 +109,10 @@ ul,
 ol {
   font-size: 14px;
   font-weight: normal;
-  <!--margin-bottom: 10px;-->
 }
 
 ul li, 
 ol li {
-  <!--margin-left: 5px;-->
   list-style-position: inside;
 }
 
@@ -153,21 +123,14 @@ ol li {
 /* Set a max-width, and make it display as block so it will automatically stretch to that width, but will also shrink down on a phone or something */
 .container {
   clear: both !important;
-  <!--display: block !important;-->
-  <!--Margin: 0 auto !important;-->
-  <!--max-width: 600px !important;-->
 }
 
 /* Set the padding on the td rather than the div for Outlook compatibility */
 .body-wrap .container {
-  <!--padding: 20px;-->
 }
 
 /* This should also be a block element, so that it will fill 100% of the .container */
 .content {
-  <!--display: block;-->
-  <!--margin: 0 auto;-->
-  <!--max-width: 600px;-->
 }
 
 /* Let's make sure tables in the content area are 100% wide */
@@ -181,39 +144,45 @@ ol li {
 <body bgcolor="#f6f6f6">
 
 <!-- body -->
-<table align="center" cellpadding="10" class="body-wrap" bgcolor="#f6f6f6">
+<table align="center" cellpadding="15" class="body-wrap" bgcolor="#f6f6f6">
   <tr>
     <td></td>
     <td class="container" bgcolor="#FFFFFF">
 
-      <!-- content -->
-      <div class="content">
-      <table>
-        <tr>
-          <td>
-            <p>Hi there,</p>
-            <p>Sometimes all you want is to send a simple HTML email with a basic design.</p>
-            <h1>Really simple HTML email template</h1>
-            <p>This is a really simple email template. Its sole purpose is to get you to click the button below.</p>
-            <h2>How do I use it?</h2>
-            <p>All the information you need is on GitHub.</p>
-            <!-- button -->
-            <table class="btn-primary" cellpadding="0" cellspacing="0" border="0">
-              <tr>
-                <td>
-                  <a href="https://github.com/leemunroe/html-email-template">View the source and instructions on GitHub</a>
-                </td>
-              </tr>
-            </table>
-            <!-- /button -->
-            <p>Feel free to use, copy, modify this email template as you wish.</p>
-            <p>Thanks, have a lovely day.</p>
-            <p><a href="http://twitter.com/leemunroe">Follow @leemunroe on Twitter</a></p>
-          </td>
-        </tr>
-      </table>
-      </div>
-      <!-- /content -->
+			<!-- content -->
+			<div class="content">
+				<table>
+					<tr>
+						<td>
+							<!--<img src="Thanks-For-Your-Order-Pyramid-Mats.jpg" style="width: 100%;">-->
+							<img src="https://fbglogos.s3-us-west-2.amazonaws.com/24e55470484c60fc7d9645a2ba7e5a18php3AC8vp.jpeg" style="width: 100%;">
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<p>Hi there,</p>
+							<p>Sometimes all you want is to send a simple HTML email with a basic design.</p>
+							<h1>Really simple HTML email template</h1>
+							<p>This is a really simple email template. Its sole purpose is to get you to click the button below.</p>
+							<h2>How do I use it?</h2>
+							<p>All the information you need is on GitHub.</p>
+							<!-- button -->
+							<table class="btn-primary" cellpadding="0" cellspacing="0" border="0">
+								<tr>
+									<td>
+										<a href="https://github.com/leemunroe/html-email-template">View the source and instructions on GitHub</a>
+									</td>
+								</tr>
+							</table>
+							<!-- /button -->
+							<p>Feel free to use, copy, modify this email template as you wish.</p>
+							<p>Thanks, have a lovely day.</p>
+							<p><a href="http://twitter.com/leemunroe">Follow @leemunroe on Twitter</a></p>
+						</td>
+					</tr>
+				</table>
+			</div>
+			<!-- /content -->
       
     </td>
     <td></td>
